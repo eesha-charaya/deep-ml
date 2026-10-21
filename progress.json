@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:36:10.286Z",
+  "generated_at": "2026-10-21T08:36:13.101Z",
   "items": {
     "problem:941": {
       "kind": "problem",
@@ -13,6 +13,58 @@
       "last_pushed_at": "2026-10-16T06:25:30.547Z",
       "language": "python",
       "lines": 19
+    },
+    "problem:83": {
+      "kind": "problem",
+      "id": "83",
+      "title": "Dot Product Calculator",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/83",
+      "path": "problems/0083-dot-product-calculator",
+      "first_solved_at": "2026-10-21T05:26:30.586Z",
+      "last_pushed_at": "2026-10-21T05:26:30.586Z",
+      "language": "python",
+      "lines": 12
+    },
+    "problem:1": {
+      "kind": "problem",
+      "id": "1",
+      "title": "Matrix-Vector Dot Product",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1",
+      "path": "problems/0001-matrix-vector-dot-product",
+      "first_solved_at": "2026-10-21T05:36:33.331Z",
+      "last_pushed_at": "2026-10-21T05:36:33.331Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:2": {
+      "kind": "problem",
+      "id": "2",
+      "title": "Transpose of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/2",
+      "path": "problems/0002-transpose-of-a-matrix",
+      "first_solved_at": "2026-10-21T06:40:46.630Z",
+      "last_pushed_at": "2026-10-21T06:40:46.630Z",
+      "language": "python",
+      "lines": 12
+    },
+    "problem:9": {
+      "kind": "problem",
+      "id": "9",
+      "title": "Matrix times Matrix ",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/9",
+      "path": "problems/0009-matrix-times-matrix",
+      "first_solved_at": "2026-10-21T08:34:31.565Z",
+      "last_pushed_at": "2026-10-21T08:34:31.565Z",
+      "language": "python",
+      "lines": 12
     }
   }
 }
