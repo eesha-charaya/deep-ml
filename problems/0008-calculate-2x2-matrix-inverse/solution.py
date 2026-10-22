@@ -1,3 +1,4 @@
+import numpy as np
 def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
     """
     Calculate the inverse of a 2x2 matrix.
@@ -9,16 +10,20 @@ def inverse_2x2(matrix: list[list[float]]) -> list[list[float]] | None:
         The inverse matrix as a 2x2 list, or None if the matrix is singular
         (i.e., determinant equals zero)
     """
-    # no numpy
-    a,b = matrix[0]
-    c,d = matrix[1]
+    # # no numpy
+    # a,b = matrix[0]
+    # c,d = matrix[1]
 
-    dt = a*d - b*c
+    # dt = a*d - b*c
 
-    if dt == 0:
-        return None
+    # if dt == 0:
+    #     return None
     
-    return [[d/dt, -b/dt],[-c/dt, a/dt]]
+    # return [[d/dt, -b/dt],[-c/dt, a/dt]]
+
+    # Numpy 1
+    return None if np.linalg.det(matrix) == 0 else np.linalg.inv(matrix)
+
 
 
 
