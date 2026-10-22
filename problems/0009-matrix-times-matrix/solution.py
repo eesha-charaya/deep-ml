@@ -5,7 +5,7 @@ def matrixmul(a:list[list[int|float]],
 
     # Numpy 
     if len(a[0]) == len(b):
-        return np.matmul(a,b)
+        return np.matmul(a,b).tolist()
     else:
         return -1
 
